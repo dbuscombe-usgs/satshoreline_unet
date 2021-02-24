@@ -364,16 +364,16 @@ for BATCH_SIZE in [24,36,40]:#,24,36]:
 
     nclasses = 5
 
-    # sample_data_path = '/media/marda/TWOTB/USGS/DATA/SatShorelines/satshoreline_unet/data/sentinel2-ts'
+    # sample_data_path = os.getcwd()+os.sep+'data/sentinel2-ts'
     # test_samples_fig = os.getcwd()+os.sep+'results/pred/s2_ts_sample_4class.png'
 
-    sample_data_path = '/media/marda/TWOTB/USGS/DATA/SatShorelines/satshoreline_unet/data/sentinel2-ts-sunset'
+    sample_data_path = os.getcwd()+os.sep+'data/sentinel2-ts-sunset'
     test_samples_fig = os.getcwd()+os.sep+'results/pred/s2_ts_sample_4class.png'
 
-    # sample_data_path = '/media/marda/TWOTB/USGS/DATA/SatShorelines/satshoreline_unet/data/sentinel2-ts-funston'
+    # sample_data_path = os.getcwd()+os.sep+'data/sentinel2-ts-funston'
     # test_samples_fig = os.getcwd()+os.sep+'results/pred/s2_ts_sample_4class-funston.png'
 
-    # sample_data_path = '/media/marda/TWOTB/USGS/DATA/SatShorelines/satshoreline_unet/data/landsat8-ts'
+    # sample_data_path = os.getcwd()+os.sep+'data/landsat8-ts'
     # test_samples_fig = os.getcwd()+os.sep+'results/pred/l8_ts_sample_4class.png'
     #
 
