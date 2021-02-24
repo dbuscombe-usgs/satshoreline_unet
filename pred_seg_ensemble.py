@@ -364,10 +364,7 @@ for BATCH_SIZE in [4,6,8,12]:
 
     nclasses = 5
 
-    # sample_data_path = os.getcwd()+os.sep+'data/sentinel2-ts'
-    # test_samples_fig = os.getcwd()+os.sep+'results/pred/s2_ts_sample_4class.png'
-
-    sample_data_path = os.getcwd()+os.sep+'data/sentinel2-ts-sunset'
+    sample_data_path = os.getcwd()+os.sep+'data/sentinel2-ts'
     test_samples_fig = os.getcwd()+os.sep+'results/pred/s2_ts_sample_4class.png'
 
     # sample_data_path = os.getcwd()+os.sep+'data/sentinel2-ts-funston'
