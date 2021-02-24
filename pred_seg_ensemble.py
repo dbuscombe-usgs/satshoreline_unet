@@ -9,7 +9,7 @@ import datetime
 
 MODELS = []
 
-for BATCH_SIZE in [24,36,40]:#,24,36]:
+for BATCH_SIZE in [4,6,8,12]:
 
     print(BATCH_SIZE)
 

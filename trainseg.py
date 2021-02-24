@@ -30,7 +30,7 @@ from pydensecrf.utils import create_pairwise_bilateral, unary_from_labels
 from skimage.filters.rank import median
 from skimage.morphology import disk
 
-for BATCH_SIZE in [40]: #[4,6,8,12,24,36]:
+for BATCH_SIZE in [4,6,8,12]:
 
     print(BATCH_SIZE)
 
